@@ -1,0 +1,5 @@
+name: AArmor
+main: test\Main
+version: "2.0.5"
+api: [3.0.0, 4.0.0]
+author: HypixelPE Dev
