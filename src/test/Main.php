@@ -17,7 +17,6 @@ use pocketmine\event\player\PlayerRespawnEvent;
 use pocketmine\command\CommandExecutor;
 use pocketmine\command\ConsoleCommandSender;
 use pocketmine\inventory\ChestInventory;
-use pocketmine\network\mcpe\protocol\ChangeDimensionPacket;
 use pocketmine\network\mcpe\protocol\PlayStatusPacket;
 use pocketmine\item\Item;
 use pocketmine\level\Level;
