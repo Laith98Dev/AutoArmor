@@ -8,3 +8,6 @@ AutoArmor By LaithYT For MCPE SERVERS POCKETMINE
 - [x] Diamond Armor
 
 # Copyright 2020 LaithYT 
+
+
+- [Link Video](https://www.youtube.com/watch?v=TOLyqmdwt4U)
