@@ -9,5 +9,5 @@ AutoArmor By LaithYT For MCPE SERVERS POCKETMINE
 
 # Copyright 2020 LaithYT 
 
-
+- "AutoArmor plugin is help to wear armor because it is not wearable in Pocketmien, so it can be worn quickly and easily, for Pocketmine servers"
 - [Link Video](https://www.youtube.com/watch?v=TOLyqmdwt4U)
