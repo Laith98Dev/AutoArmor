@@ -1,5 +1,5 @@
 name: AArmor
-main: test\Main
-version: "2.0.5"
-api: [3.0.0, 4.0.0]
-author: HypixelPE Dev
+main: laith98\AutoArmor\Main
+version: "0.0.1"
+api: [3.9.0]
+author: Laith98 (Hypixel PE Dev) 
