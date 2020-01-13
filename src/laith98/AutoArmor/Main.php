@@ -35,8 +35,7 @@ use pocketmine\utils\Config;
 class Main extends PluginBase implements Listener {
 
 	public function onEnable(){
-			$this->getLogger()->info(" Enabled ");
-			$this->getServer()->getPluginManager()->registerEvents($this, $this);
+		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		}
 
 	/*
@@ -147,5 +146,9 @@ class Main extends PluginBase implements Listener {
 			$player->getArmorInventory()->setBoots($gb);
     	  }
 		  
-	}	
+	}
+	
+	public function onDisable() {
+	$this->getLogger()->info("Disabled");
+	}
 }
