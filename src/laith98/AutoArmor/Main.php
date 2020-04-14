@@ -44,104 +44,105 @@ class Main extends PluginBase implements Listener {
 	*/
 	public function Tap(PlayerItemHeldEvent $event){
     	  $item = $event->getItem();
-		  $player = $event->getPlayer();
-    	  if($item->getName() === "Diamond Helmet"){
+	  $player = $event->getPlayer();
+		$in = $player->getInventory()->getItemInHand()->getId();
+    	  if($in === 310){
 			$dh = Item::get(310, 0, 1);
 			$player->getInventory()->remove($dh);
 			$player->getArmorInventory()->setHelmet($dh);
 			}
-		  if($item->getName() === "Diamond Chestplate"){
+		  if($in === 311){
     	  	$dc = Item::get(311, 0, 1);
 			$player->getInventory()->remove($dc);
 			$player->getArmorInventory()->setChestplate($dc);
     	  }
-		  if($item->getName() === "Diamond Leggings"){
+		  if($in === 312){
     	  	$dl = Item::get(312, 0, 1);
 			$player->getInventory()->remove($dl);
 			$player->getArmorInventory()->setLeggings($dl);
     	  }
-		  if($item->getName() === "Diamond Boots"){
+		  if($in === 313){
     	  	$db = Item::get(313, 0, 1);
 			$player->getInventory()->remove($db);
 			$player->getArmorInventory()->setBoots($db);
     	  }
-		  if($item->getName() === "Leather Cap"){
+		  if($in === 298){
     	  	$lc = Item::get(298, 0, 1);
 			$player->getInventory()->remove($lc);
 			$player->getArmorInventory()->setHelmet($lc);
     	  }
-		  if($item->getName() === "Leather Tunic"){
+		  if($in === 299){
     	  	$lt = Item::get(299, 0, 1);
 			$player->getInventory()->remove($lt);
 			$player->getArmorInventory()->setChestplate($lt);
     	  }
-		  if($item->getName() === "Leather Pants"){
+		  if($in === 300){
     	  	$lp = Item::get(300, 0, 1);
 			$player->getInventory()->remove($lp);
 			$player->getArmorInventory()->setLeggings($lp);
     	  }
-		   if($item->getName() === "Leather Boots"){
+		   if($in === 301){
     	  	$lb = Item::get(301, 0, 1);
 			$player->getInventory()->remove($lb);
 			$player->getArmorInventory()->setBoots($lb);
     	  }
-		  if($item->getName() === "Chainmail Helmet"){
+		  if($in === 302){
     	  	$ch = Item::get(302, 0, 1);
 			$player->getInventory()->remove($ch);
 			$player->getArmorInventory()->setHelmet($ch);
     	  }
-		  if($item->getName() === "Chain Chestplate"){
+		  if($in === 303){
     	  	$cc = Item::get(303, 0, 1);
 			$player->getInventory()->remove($cc);
 			$player->getArmorInventory()->setChestplate($cc);
     	  }
-		  if($item->getName() === "Chain Leggings"){
+		  if($in === 304){
     	  	$cl = Item::get(304, 0, 1);
 			$player->getInventory()->remove($cl);
 			$player->getArmorInventory()->setLeggings($cl);
     	  }
-		  if($item->getName() === "Chainmail Boots"){
+		  if($in === 305){
     	  	$cb = Item::get(305, 0, 1);
 			$player->getInventory()->remove($cb);
 			$player->getArmorInventory()->setBoots($cb);
     	  }
-		  if($item->getName() === "Iron Helmet"){
+		  if($in === 306){
     	  	$ih = Item::get(306, 0, 1);
 			$player->getInventory()->remove($ih);
 			$player->getArmorInventory()->setHelmet($ih);
     	  }
-		  if($item->getName() === "Iron Chestplate"){
+		  if($in === 307){
     	  	$ic = Item::get(307, 0, 1);
 			$player->getInventory()->remove($ic);
 			$player->getArmorInventory()->setChestplate($ic);
     	  }
-		  if($item->getName() === "Iron Leggings"){
+		  if($in === 308){
     	  	$il = Item::get(308, 0, 1);
 			$player->getInventory()->remove($il);
 			$player->getArmorInventory()->setLeggings($il);
     	  }
-		  if($item->getName() === "Iron Boots"){
+		  if($in === 309){
     	  	$ib = Item::get(309, 0, 1);
 			$player->getInventory()->remove($ib);
 			$player->getArmorInventory()->setBoots($ib);
     	  }
-		  if($item->getName() === "Gold Helmet"){
-    	  	$gh = Item::get(314);
+		  if($in === 314){
+    	  	$gh = Item::get(314, 0, 1);
 			$player->getInventory()->remove($gh);
 			$player->getArmorInventory()->setHelmet($gh);
     	  }
-		  if($item->getName() === "Gold Chestplate"){
-    	  	$gc = Item::get(315);
+		  if($in === 315){
+    	  	$gc = Item::get(315, 0, 1);
 			$player->getInventory()->remove($gc);
 			$player->getArmorInventory()->setChestplate($gc);
     	  }
-		  if($item->getName() === "Gold Leggings"){
-    	  	$gl = Item::get(316);
+		  if($in === 316){
+    	  	$gl = Item::get(316, 0, 1);
 			$player->getInventory()->remove($gl);
 			$player->getArmorInventory()->setLeggings($gl);
     	  }
-		  if($item->getName() === "Gold Boots"){
-    	  	$gb = Item::get(317);
+		  if($in === 317){
+    	  	$gb = Item::get(317, 0, 1);
 			$player->getInventory()->remove($gb);
 			$player->getArmorInventory()->setBoots($gb);
     	  }
